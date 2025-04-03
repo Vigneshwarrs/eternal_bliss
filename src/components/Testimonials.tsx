@@ -6,19 +6,19 @@ const Testimonials = () => {
       { 
         name: 'Sarah & James', 
         content: 'Our wedding day was absolutely perfect! The team went above and beyond our expectations. Every detail was meticulously planned and executed flawlessly.', 
-        image: 'https://images.unsplash.com/photo-1623778392472-f1760d9fd8d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&fit=crop&q=80',
+        image: '../../public/img/couple-1.jpg',
         date: 'June 2023'
       },
       { 
         name: 'Emily & Michael', 
         content: 'Professional, creative, and attentive to every detail. We couldn\'t be happier with how our wedding turned out. They made the entire process stress-free!', 
-        image: 'https://images.unsplash.com/photo-1623778445840-681cfd6b364c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&fit=crop&q=80',
+        image: '../../public/img/couple-2.jpg',
         date: 'September 2023'
       },
       { 
         name: 'Jessica & David', 
         content: 'They made our dream wedding come true. Everything was simply magical. The team understood our vision perfectly and brought it to life beyond our expectations.', 
-        image: 'https://images.unsplash.com/photo-1623778445998-3b8893fb8f84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&fit=crop&q=80',
+        image: '../../public/img/couple-3.jpg',
         date: 'April 2024'
       },
     ];

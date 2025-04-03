@@ -2,12 +2,12 @@
 import { motion } from 'framer-motion';
 const Gallery = () => {
     const galleryImages = [
-      { src: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding ceremony' },
-      { src: 'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding couple' },
-      { src: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding reception' },
-      { src: 'https://images.unsplash.com/photo-1600046050370-5eef2161f308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding planning' },
-      { src: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding details' },
-      { src: 'https://images.unsplash.com/photo-1511285560929-80ec4563a7b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', alt: 'Wedding venue' },
+      { src: '../../public/img/wedding_ceremony_gallery.jpg', alt: 'Wedding ceremony' },
+      { src: '../../public/img/wedding_couple_gallery.jpg', alt: 'Wedding couple' },
+      { src: '../../public/img/wedding_reception_gallery.jpg', alt: 'Wedding reception' },
+      { src: '../../public/img/wedding_planning_gallery.jpg', alt: 'Wedding planning' },
+      { src: '../../public/img/wedding_details_gallery.jpg', alt: 'Wedding details' },
+      { src: '../../public/img/wedding_venue_gallery.jpg', alt: 'Wedding venue' },
     ];
   
     return (

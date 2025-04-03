@@ -11,10 +11,10 @@ return (
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
->``
+>
   <div className="relative rounded-2xl overflow-hidden shadow-xl">
     <img 
-      src="https://images.unsplash.com/photo-1600046050370-5eef2161f308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+      src="../../public/img/about.jpg" 
       alt="Wedding planners working"
       className="w-full h-auto object-cover"
     />

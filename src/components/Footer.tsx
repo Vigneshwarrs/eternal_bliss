@@ -1,7 +1,15 @@
 import { BellRing, Facebook, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+import axios from 'axios';
+import { API_URL } from '../main';
 const Footer = () => {
+
+  const handleSubmit = async(e: any) =>{
+    await axios.post(`${API_URL}/api/v1/user-subscribed`, {
+      email: e.target[0].value
+    });
+  }
+
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-6">
@@ -81,7 +89,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Subscribe to receive wedding planning tips and special offers.
             </p>
-            <form className="flex flex-col space-y-3">
+            <form onSubmit={handleSubmit} className="flex flex-col space-y-3">
               <input
                 type="email"
                 placeholder="Your email address"
