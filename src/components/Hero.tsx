@@ -22,7 +22,7 @@ const Hero = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <img src='../../public/img/logo.png' className="w-50 h-30 text-rose-400" />
+          <img src='/img/logo.png' className="w-50 h-30 text-rose-400" />
         </motion.div>
         
         <motion.h1 

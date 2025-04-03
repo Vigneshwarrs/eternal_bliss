@@ -15,7 +15,7 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <img src={'../../public/img/logo.png'} className="h-15 w-20 text-rose-500" />
+            <img src={'/img/logo.png'} className="h-15 w-20 text-rose-500" />
             <span className="ml-2 text-2xl font-serif text-gray-800 font-medium">Eternal Bliss</span>
           </motion.div>
           

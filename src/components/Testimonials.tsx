@@ -6,19 +6,19 @@ const Testimonials = () => {
       { 
         name: 'Sarah & James', 
         content: 'Our wedding day was absolutely perfect! The team went above and beyond our expectations. Every detail was meticulously planned and executed flawlessly.', 
-        image: '../../public/img/couple-1.jpg',
+        image: '/img/couple-1.jpg',
         date: 'June 2023'
       },
       { 
         name: 'Emily & Michael', 
         content: 'Professional, creative, and attentive to every detail. We couldn\'t be happier with how our wedding turned out. They made the entire process stress-free!', 
-        image: '../../public/img/couple-2.jpg',
+        image: '/img/couple-2.jpg',
         date: 'September 2023'
       },
       { 
         name: 'Jessica & David', 
         content: 'They made our dream wedding come true. Everything was simply magical. The team understood our vision perfectly and brought it to life beyond our expectations.', 
-        image: '../../public/img/couple-3.jpg',
+        image: '/img/couple-3.jpg',
         date: 'April 2024'
       },
     ];

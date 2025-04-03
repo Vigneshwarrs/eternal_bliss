@@ -2,12 +2,12 @@
 import { motion } from 'framer-motion';
 const Gallery = () => {
     const galleryImages = [
-      { src: '../../public/img/wedding_ceremony_gallery.jpg', alt: 'Wedding ceremony' },
-      { src: '../../public/img/wedding_couple_gallery.jpg', alt: 'Wedding couple' },
-      { src: '../../public/img/wedding_reception_gallery.jpg', alt: 'Wedding reception' },
-      { src: '../../public/img/wedding_planning_gallery.jpg', alt: 'Wedding planning' },
-      { src: '../../public/img/wedding_details_gallery.jpg', alt: 'Wedding details' },
-      { src: '../../public/img/wedding_venue_gallery.jpg', alt: 'Wedding venue' },
+      { src: '/img/wedding_ceremony_gallery.jpg', alt: 'Wedding ceremony' },
+      { src: '/img/wedding_couple_gallery.jpg', alt: 'Wedding couple' },
+      { src: '/img/wedding_reception_gallery.jpg', alt: 'Wedding reception' },
+      { src: '/img/wedding_planning_gallery.jpg', alt: 'Wedding planning' },
+      { src: '/img/wedding_details_gallery.jpg', alt: 'Wedding details' },
+      { src: '/img/wedding_venue_gallery.jpg', alt: 'Wedding venue' },
     ];
   
     return (
